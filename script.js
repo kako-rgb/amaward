@@ -314,17 +314,4 @@ window.addEventListener("scroll", highlightNavLink);
 highlightNavLink();
 
 
-// --- Basic Contact Form Handling (Example - prevents default submission) ---
-const contactForm = document.getElementById('contact-form');
-if (contactForm) {
-    contactForm.addEventListener('submit', function(event) {
-        event.preventDefault();
-        // Here you would typically add code to:
-        // 1. Get form data (name, email, message)
-        // 2. Validate the data
-        // 3. Send the data using fetch() or XMLHttpRequest to a server-side script (PHP, Node.js, etc.)
-        // 4. Display a success or error message to the user
-        alert("Form submitted (demo)! You would need a server-side script to actually send the message.");
-        contactForm.reset(); // Optional: clear the form
-    });
-}
+// Note: Contact form handling is already implemented above with mailto functionality
