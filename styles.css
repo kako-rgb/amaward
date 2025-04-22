@@ -379,6 +379,11 @@ blockquote {
 .team-member h4 { margin-top: 10px; margin-bottom: 5px; }
 .team-member p { font-size: 0.9rem; color: #666; }
 
+/* Specific style for MD profile picture */
+#mdpic {
+    background-color: var(--primary-color);
+}
+
 /* --- Services Section --- */
 /* Services Carousel Styles */
 .services-carousel {
